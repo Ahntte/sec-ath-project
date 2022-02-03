@@ -1,0 +1,15 @@
+127.0.0.1 - - [21/Jul/2021:13:51:06 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:13:51:07 +0900] "GET /hoyaMall/index.jsp HTTP/1.1" 200 8271
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:13:51:07 +0900] "GET /hoyaMall/js/jquery-3.5.1.js HTTP/1.1" 200 287630
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:13:51:07 +0900] "GET /hoyaMall/images/%ED%8F%AC%EC%97%90%ED%8A%B8%EB%A6%AC%20%EA%B0%80%EB%93%A0.png HTTP/1.1" 200 22181
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:13:51:07 +0900] "GET /hoyaMall/images/%EC%95%84%ED%98%B8%EC%95%BC1.jpg HTTP/1.1" 200 471861
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:13:51:08 +0900] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:13:56:22 +0900] "GET /hoyaMall/login_view.login HTTP/1.1" 200 9779
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:13:56:26 +0900] "GET /hoyaMall/join_view.join HTTP/1.1" 200 36565
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:14:02:08 +0900] "GET /hoyaMall/join_form.join HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:14:10:04 +0900] "GET /hoyaMall/join_view.join HTTP/1.1" 200 36565
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:14:10:04 +0900] "GET /hoyaMall/js/jquery-3.5.1.js HTTP/1.1" 200 287630
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:14:10:04 +0900] "GET /hoyaMall/images/%ED%8F%AC%EC%97%90%ED%8A%B8%EB%A6%AC%20%EA%B0%80%EB%93%A0.png HTTP/1.1" 200 22181
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:14:10:05 +0900] "GET /hoyaMall/join_view.join HTTP/1.1" 200 36565
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:14:39:18 +0900] "GET /hoyaMall/join_view.join HTTP/1.1" 200 36563
+0:0:0:0:0:0:0:1 - - [21/Jul/2021:14:39:27 +0900] "GET /hoyaMall/join_form.join HTTP/1.1" 200 27042

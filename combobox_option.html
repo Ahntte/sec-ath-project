@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 자바스크립트로 html조작하기 (삽입,변경,삭제...)
+      // 1900 ~ curYear까지 옵션으로 보여주기
+      // 옵션 배열
+      let startYear = 1900;
+      let i = 0;
+      let yearCnt = 121; //
+      const date = new Date(); // 년도를 찾기위해 date객체의 인스턴스 생성
+      let curYear = date.getFullYear(); // 현재 년도를 구하여 저장
+      //1900년도 부터 2021년도까지 갯수는 121개이지만 그 다음해로 넘어가면 갯수가 +1이됨
+
+      // 배열에 0번지 부터 데이터를 집어넣어야 하므로 인덱스넘버에 대한 루프 하나
+      // 1900데이터부터 현재 년도 데이터까지의 값들을 위 배열에 순서대로 저정해야하므로 데이터를 얻기 위한 루프 하나
+      // 총 루프를 두 개 돌려야하는거같은데
+      // 121을 그대로 쓰면 ㄴㄴ 121 + 1
+      // curYear을 업데이트 시켜주는 조건을 만들어주면?
+      //
+      function yearList(obj) {
+        let cata1 = obj;
+        if (curYear < curYear + 1) {
+          yearCnt += 1;
+          while (i < yearCnt) {
+            i++;
+            cata1.options[i] = new Option(startYear, startYear);
+            startYear++;
+          }
+        }
+      }
+    </script>
+    <!-- 
+         onclick : 유저가 마우스 버튼을 클릭했을때 동작함
+         onchange : 유저가 상태값을 변경했을때 동작함 -> 콤보박스
+    -->
+    <select name="cata1" id="cata1" onclick="yearList(this)">
+      <option value="">년도</option>
+    </select>
+  </body>
+</html>

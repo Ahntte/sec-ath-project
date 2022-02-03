@@ -1,0 +1,16 @@
+127.0.0.1 - - [30/May/2021:11:31:49 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:31:50 +0900] "GET /hoyaMall/index.jsp HTTP/1.1" 200 8258
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:31:50 +0900] "GET /hoyaMall/js/jquery-3.5.1.js HTTP/1.1" 200 287630
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:31:50 +0900] "GET /hoyaMall/images/%ED%8F%AC%EC%97%90%ED%8A%B8%EB%A6%AC%20%EA%B0%80%EB%93%A0.png HTTP/1.1" 200 22181
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:31:50 +0900] "GET /hoyaMall/images/%EC%95%84%ED%98%B8%EC%95%BC1.jpg HTTP/1.1" 200 471861
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:31:50 +0900] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:32:02 +0900] "GET /hoyaMall/login_view.login HTTP/1.1" 200 9751
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:32:12 +0900] "POST /hoyaMall/login_proc.login HTTP/1.1" 200 8178
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:34:16 +0900] "POST /hoyaMall/login_proc.login HTTP/1.1" 200 8178
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:34:19 +0900] "GET /hoyaMall/memberlogout_proc.mbc HTTP/1.1" 404 1108
+127.0.0.1 - - [30/May/2021:11:35:36 +0900] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:35:37 +0900] "GET /hoyaMall/index.jsp HTTP/1.1" 200 8258
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:35:39 +0900] "GET /hoyaMall/login_view.login HTTP/1.1" 200 9751
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:35:47 +0900] "POST /hoyaMall/login_proc.login HTTP/1.1" 200 8174
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:35:49 +0900] "GET /hoyaMall/logout_proc.login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/May/2021:11:35:49 +0900] "GET /hoyaMall/index.jsp HTTP/1.1" 200 8258
